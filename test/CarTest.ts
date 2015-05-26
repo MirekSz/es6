@@ -23,7 +23,7 @@ describe('TypeScript TEST', function () {
        var service: core.CarServiceImpl   = core.factory.create();
         expect(service instanceof core.CarServiceImpl).to.be.true;
 
-        var res = _.chunk(['a', 'b', 'c', 'd'], 2);
+        var res = _.chunk(['a', 'b', 'c'], 2);
         console.log(res)
     })
 });
